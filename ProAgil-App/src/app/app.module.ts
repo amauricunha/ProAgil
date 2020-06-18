@@ -5,16 +5,18 @@ import { HttpClientModule } from '@angular/common/http'; // também para consegu
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EventosComponent } from './eventos/eventos.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
    declarations: [
       AppComponent,
-      EventosComponent
+      EventosComponent,
+      NavComponent
    ],
    imports: [
       BrowserModule,
       AppRoutingModule,
-      HttpClientModule // módulo para conseguir fazer um get ajax
+      HttpClientModule//móduloparaconseguirfazerumgetajax
    ],
    providers: [],
    bootstrap: [
